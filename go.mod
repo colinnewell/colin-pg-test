@@ -1,4 +1,4 @@
-module github.com/colinnewell/pg-init
+module github.com/colinnewell/pg-test
 
 go 1.17
 

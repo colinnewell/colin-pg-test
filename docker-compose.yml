@@ -1,6 +1,12 @@
 version: "3.7"
 services:
 
+  app:
+    build:
+      context: .
+    environment:
+      MYAPP_DSN: "dbname=docker user=docker password=password host=postgres sslmode=disable"
+
   postgres:
     image: postgres:14
     environment:
