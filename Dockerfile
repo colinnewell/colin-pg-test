@@ -6,7 +6,7 @@ WORKDIR /pg-test
 RUN go mod download
 
 COPY main.go /pg-test/
-RUN CGO_ENABLED=0 GOOS=linux go build
+RUN CGO_ENABLED=0 GOOS=linux go build -o pg-test
 
 FROM scratch
 

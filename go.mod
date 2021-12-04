@@ -1,4 +1,4 @@
-module github.com/colinnewell/pg-test
+module github.com/colinnewell/colin-pg-test
 
 go 1.17
 
