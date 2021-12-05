@@ -6,6 +6,7 @@ services:
       context: .
     environment:
       MYAPP_DSN: "dbname=docker user=docker password=password host=postgres sslmode=disable"
+      DATABASE_URL: "postgres://docker:password@postgres:5432/docker"
 
   postgres:
     image: postgres:14
